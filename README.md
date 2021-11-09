@@ -17,13 +17,27 @@
   git clone https://github.com/maxceem/tc-bootcamp-demo-react-app.git
   ```
 
+  <details><summary>Click to see example output</summary>
+  <br>
+  <img src="docs/01-git-clone.png" />
+  </details>
+
 - 📦 Install NPM dependencies.
 
   Navigate to the project root folder in the terminal (folder `tc-bootcamp-demo-react-app`) and run command:
 
   ```bash
-  npm run install
+  # navigate to the root project folder
+  cd tc-bootcamp-demo-react-app
+
+  # install dependencies
+  npm install
   ```
+
+  <details><summary>Click to see example output</summary>
+  <br>
+  <img src="docs/02-install-dependencies.png" />
+  </details>
 
 - 🚀 Run the development server (inside the same folder `tc-bootcamp-demo-react-app`):
 
@@ -31,7 +45,17 @@
   npm run dev
   ```
 
+  <details><summary>Click to see example output</summary>
+  <br>
+  <img src="docs/03-run-dev.png" />
+  </details>
+
 - 👀 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+  <details><summary>Click to see how website would look like</summary>
+  <br>
+  <img src="docs/04-open-localhost.png" />
+  </details>
 
 ## Commands
 
