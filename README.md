@@ -1,34 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Topcoder Virtual Bootcamp - React Demo Application
 
 ## Getting Started
 
-First, run the development server:
+### System Requirements
+
+- Make sure you have [Node.js](https://nodejs.org/en/) 10.13 or later.
+- [Git](https://git-scm.com/) command line tool or [Git GUI client](https://git-scm.com/downloads/guis/) like [Sourcetree](https://www.sourcetreeapp.com/).
+
+### How to run locally
+
+- ⬇️ Clone this git repository.
+
+  Open terminal/console window and navigate to some folder where you would like to store this project and run command:
+
+  ```bash
+  git clone https://github.com/maxceem/tc-bootcamp-demo-react-app.git
+  ```
+
+- 📦 Install NPM dependencies.
+
+  Navigate to the project root folder in the terminal (folder `tc-bootcamp-demo-react-app`) and run command:
+
+  ```bash
+  npm run install
+  ```
+
+- 🚀 Run the development server (inside the same folder `tc-bootcamp-demo-react-app`):
+
+  ```bash
+  npm run dev
+  ```
+
+- 👀 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Commands
+
+To check code for lint errors run the next command:
 
 ```bash
-npm run dev
-# or
-yarn dev
+npm run lint
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technology Stack
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- [React 17](https://reactjs.org/)
+- This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+- [React Bootstrap](https://react-bootstrap.github.io/) - for styling and reusable components.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Recommended Documentation
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- If you would like to learn React from scratch there is no better place then [official React documentation](https://reactjs.org/docs/getting-started.html).
+- This project was built using [Next.js](https://nextjs.org/) - which is a React framework. It configures a lot of things which you usually need when creating a production website like routing, SSR (server side rendering) and so on. It hides from you some low-level concepts of React, but it allowes you to start building production websites using React faster. It has a [great documentation to learn it](https://nextjs.org/docs/getting-started).
