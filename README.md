@@ -9,7 +9,7 @@
 
 ### How to run locally
 
-- ⬇️ Clone this git repository.
+1. Clone this git repository.
 
   Open terminal/console window and navigate to some folder where you would like to store this project and run command:
 
@@ -22,7 +22,7 @@
   <img src="docs/01-git-clone.png" />
   </details>
 
-- 📦 Install NPM dependencies.
+2. Install NPM dependencies.
 
   Navigate to the project root folder in the terminal (folder `tc-bootcamp-demo-react-app`) and run command:
 
@@ -39,7 +39,7 @@
   <img src="docs/02-install-dependencies.png" />
   </details>
 
-- 🚀 Run the development server (inside the same folder `tc-bootcamp-demo-react-app`):
+3. Run the development server (inside the same folder `tc-bootcamp-demo-react-app`):
 
   ```bash
   npm run dev
@@ -50,7 +50,7 @@
   <img src="docs/03-run-dev.png" />
   </details>
 
-- 👀 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
   <details><summary>Click to see how website would look like</summary>
   <br>
