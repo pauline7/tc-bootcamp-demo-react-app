@@ -11,51 +11,51 @@
 
 1. Clone this git repository.
 
-  Open terminal/console window and navigate to some folder where you would like to store this project and run command:
+    Open terminal/console window and navigate to some folder where you would like to store this project and run command:
 
-  ```bash
-  git clone https://github.com/maxceem/tc-bootcamp-demo-react-app.git
-  ```
+    ```bash
+    git clone https://github.com/maxceem/tc-bootcamp-demo-react-app.git
+    ```
 
-  <details><summary>Click to see example output</summary>
-  <br>
-  <img src="docs/01-git-clone.png" />
-  </details>
+    <details><summary>Click to see example output</summary>
+    <br>
+    <img src="docs/01-git-clone.png" />
+    </details>
 
 2. Install NPM dependencies.
 
-  Navigate to the project root folder in the terminal (folder `tc-bootcamp-demo-react-app`) and run command:
+    Navigate to the project root folder in the terminal (folder `tc-bootcamp-demo-react-app`) and run command:
 
-  ```bash
-  # navigate to the root project folder
-  cd tc-bootcamp-demo-react-app
+    ```bash
+    # navigate to the root project folder
+    cd tc-bootcamp-demo-react-app
 
-  # install dependencies
-  npm install
-  ```
+    # install dependencies
+    npm install
+    ```
 
-  <details><summary>Click to see example output</summary>
-  <br>
-  <img src="docs/02-install-dependencies.png" />
-  </details>
+    <details><summary>Click to see example output</summary>
+    <br>
+    <img src="docs/02-install-dependencies.png" />
+    </details>
 
 3. Run the development server (inside the same folder `tc-bootcamp-demo-react-app`):
 
-  ```bash
-  npm run dev
-  ```
+    ```bash
+    npm run dev
+    ```
 
-  <details><summary>Click to see example output</summary>
-  <br>
-  <img src="docs/03-run-dev.png" />
-  </details>
+    <details><summary>Click to see example output</summary>
+    <br>
+    <img src="docs/03-run-dev.png" />
+    </details>
 
 4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-  <details><summary>Click to see how website would look like</summary>
-  <br>
-  <img src="docs/04-open-localhost.png" />
-  </details>
+    <details><summary>Click to see how website would look like</summary>
+    <br>
+    <img src="docs/04-open-localhost.png" />
+    </details>
 
 ## Commands
 
