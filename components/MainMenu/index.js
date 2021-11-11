@@ -29,6 +29,7 @@ const MainMenu = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto" activeKey={asPath}>
             <Link href="/" passHref><Nav.Link>Home</Nav.Link></Link>
+            <Link href="/challenges" passHref><Nav.Link>Challenges</Nav.Link></Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
