@@ -1,7 +1,7 @@
 import PageContainer from '../components/PageContainer';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import { Spinner, Alert, Table } from 'react-bootstrap';
+import { Spinner, Alert, Table, ButtonToolbar, ButtonGroup, Button, Stack } from 'react-bootstrap';
 import moment from 'moment';
 
 /**
@@ -39,9 +39,13 @@ export default function Challenges() {
   const [records, setRecords] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
+  const [sortBy, setSortBy] = useState('name');
 
   useEffect(() => {
-    axios.get('https://api.topcoder.com/v5/challenges?type=CH').then((response) => {
+    // any time when we reload data, show loading indicator first
+    setLoading(true);
+
+    axios.get(`https://api.topcoder.com/v5/challenges?type=CH&sortOrder=asc&sortBy=${sortBy}`).then((response) => {
       setRecords(response.data);
       setError('');
       setLoading(false);
@@ -50,12 +54,22 @@ export default function Challenges() {
       setRecords([]);
       setLoading(false);
     })
-  }, [])
+  },
+    [sortBy] // every time when any variable in this array changes the code in `useEffect` would be executed again
+  )
 
   return (
     <PageContainer>
 
       <h1>Challenges</h1>
+
+      <Stack direction="horizontal" gap={3}>
+        Sort by:
+        <ButtonGroup className="me-2" aria-label="First group">
+          <Button onClick={() => setSortBy('name')} disabled={sortBy === 'name'}>Name</Button>
+          <Button onClick={() => setSortBy('startDate')} disabled={sortBy === 'startDate'}>Start Date</Button>
+        </ButtonGroup>
+      </Stack>
 
       {loading && (
         <Spinner animation="border" role="status">
