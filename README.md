@@ -4,7 +4,7 @@
 
 ### System Requirements
 
-- Make sure you have [Node.js](https://nodejs.org/en/) 10.13 or later.
+- Make sure you have [Node.js](https://nodejs.org/en/) 16.13.0 or later. (Node 10.22 gives error - Failed to load next.config.js)
 - [Git](https://git-scm.com/) command line tool or [Git GUI client](https://git-scm.com/downloads/guis/) like [Sourcetree](https://www.sourcetreeapp.com/).
 
 ### How to run locally

@@ -30,6 +30,7 @@ const MainMenu = () => {
           <Nav className="me-auto" activeKey={asPath}>
             <Link href="/" passHref><Nav.Link>Home</Nav.Link></Link>
             <Link href="/challenges" passHref><Nav.Link>Challenges</Nav.Link></Link>
+            <Link href="/gigs" passHref><Nav.Link>Gigs</Nav.Link></Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
